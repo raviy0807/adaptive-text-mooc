@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href="/css/content.css" rel="stylesheet">
+  <script src="/js/content.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</head>
+<body onload="text()">
+  <div id="overlay" class ="Main-page">
+      <div id="one">
+        <h3 style="text-align: center">Reading</h3>
+          <p id="div1"></p>
+      </div>
+      <div id="two">
+        <h3 style="text-align: center">Example</h3>
+          <p id="div2"></p>
+      </div>
+      <div id="three">
+        <h3 style="text-align: center">Quiz</h3>
+          <p id="div3"></p>
+          <div id="radio">
+            <label class="container"><label id="option1">Option 1</label>
+                <input type="radio" name="radio1" value="1">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"><label id="option2">Option 1</label>
+                <input type="radio" name="radio1" value="2">
+                <span class="checkmark"></span>
+              </label>
+              <label class="container"><label id="option3">Option 1</label>
+                <input type="radio" name="radio1" value="3">
+                <span class="checkmark"></span>
+              </label>
+            </div>
+      <button class="button" onclick="SubmitAnswer()">Submit</button>
+     </div>
+  </div>
+</body>
+</html>

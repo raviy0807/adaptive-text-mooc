@@ -1,0 +1,159 @@
+/*
+Template Name: Creative Bootstrap 3 Responsive Admin Template
+Template Version: 1.0
+Author: GeeksLabs
+Website: http://geekslabs.com/
+*/
+
+/* Import fonts */
+@import url(http://fonts.googleapis.com/css?family=Lato:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
+@import url(line-icons.css);
+
+div {
+    position: absolute;
+}
+#one {
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    word-wrap: break-word;
+    background : rgba(213,215,222,0.9);
+    border-style: solid;
+    border-color: black;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+}
+#two {
+    top: 50%;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    width: 50%;
+    word-wrap: break-word;
+    background: rgba(213,215,222,0.9);
+    border-style: solid;
+    border-color: black;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+}
+#three {
+    top: 0;
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    background: rgba(213,215,222,0.9);
+    border-style: solid;
+    border-color: black;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 40px;
+}
+
+#radio{
+  margin-top: 40px;
+  margin-left :10px;
+}
+
+#div3{
+  margin-left:10px;
+}
+
+.Main-page{
+  background: url('../img/adapt.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.button {
+    
+	position: absolute;
+	right:    40%;
+	bottom:   20%;
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: rgb(25, 26, 25);
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+  
+  .button:hover {background-color: #5a7988}
+  
+  .button:active {
+    background-color: black;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+  .container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 35px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default radio button */
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  /* Create a custom radio button */
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 35px;
+    width: 35px;
+    background-color: #eee;
+    border-radius: 50%;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .container:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the radio button is checked, add a blue background */
+  .container input:checked ~ .checkmark {
+    background-color: black;
+  }
+  
+  /* Create the indicator (the dot/circle - hidden when not checked) */
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the indicator (dot/circle) when checked */
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the indicator (dot/circle) */
+  .container .checkmark:after {
+     top: 9px;
+    left: 9px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: white;
+  }
